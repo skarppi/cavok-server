@@ -1,0 +1,30 @@
+{
+  "name": "cavok-server",
+  "version": "0.1.0",
+  "description": "Backend service for CAVOK app",
+  "main": "server.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint index.js lib test;exit 0"
+  },
+  "keywords": [
+    "cavok"
+  ],
+  "author": "Juho Kolehmainen <juho.kolehmainen@iki.fi>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skarppi/cavok-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skarppi/cavok-server/issues"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "finnish-aip": "^1.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.4.0",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3"
+  }
+}
